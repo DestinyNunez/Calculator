@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: teal;
+  color: lightgray;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+header > h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin: 10px;
+}
+
+header > h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: underline;
+  margin: 0;
+}
+
+header > ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+header > span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.userInputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.userInput {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputContainer > input {
+  width: 20%;
+  border-radius: 7px;
+  border: none;
+  margin: 5px;
+}
+
+.arithmeticContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.mathBtn {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.mathBtn > button, #clearBtn {
+  color: gray;
+  border: none;
+  border-radius: 7px;
+}
+
+
+.result1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 0;
+}

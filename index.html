@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header>
+      <h1>Calculator 80085</h1>
+      <h4>STEPS</h4>
+      <ol>
+        <li>Input two numbers.</li>
+        <li>Select the arithmetic operator you'd like to use.</li>
+        <li>Press equals(=) to see your result.</li>
+        <li>Press clear all to reset your calculator.</li>
+      </ol>
+      <span>(NOTE: Do not press the operator until both numbers are entered.)</span>
+    </header>
+
+<section class="userInputContainer">
+  <form class="userInput" action="index.html" method="post">
+  <section class="inputContainer">
+    <input class="input1" type="text" name="" value="">
+    <input class="input2" type="text" name="" value="">
+  </section>
+
+    <section class="arithmeticContainer">
+      <section class="mathBtn">
+      <button id="add" type="button" name="button">+</button>
+      </section>
+
+      <section class="mathBtn">
+      <button id="subtract" type="button" name="button">-</button>
+      </section>
+
+      <section class="mathBtn">
+        <button id="divide" type="button" name="button">/</button>
+      </section>
+
+      <section class="mathBtn">
+        <button id="multiply" type="button" name="button">*</button>
+      </section>
+
+      <section class="mathBtn">
+        <button id="submitBtn" type="button" name="button">=</button>
+      </section>
+
+      <section class="mathBtn">
+        <input id="clearBtn" type="reset" name="" value="Clear All">
+
+      </section>
+    </section>
+  </form>
+</section>
+
+
+
+
+</section>
+
+  <section class="result1">
+      <h2 class="results"></h2>
+  </section>
+
+
+    <footer>
+    </footer>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
