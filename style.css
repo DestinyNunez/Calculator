@@ -65,7 +65,7 @@ header > span {
 
 .inputContainer > input {
   width: 20%;
-  border-radius: 7px;
+  border-radius: 4px;
   border: none;
   margin: 5px;
 }
@@ -86,7 +86,7 @@ header > span {
 .mathBtn > button, #clearBtn {
   color: gray;
   border: none;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 
